@@ -7,6 +7,6 @@ class Core : GameManager
         // TODO : Initialize stuff before the game runs.
         
         // Add scene to the game.
-        Game.Scenes.Add(new Scene0());
+        Game.Scenes.Add(new InitScene());
     }
 }

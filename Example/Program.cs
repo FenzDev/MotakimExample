@@ -8,6 +8,6 @@ static class Program
     [STAThread]
     static void Main()
     {
-        Motakim.Game.Run(new Core());
+        Game.Run(new Core());
     }    
 }
